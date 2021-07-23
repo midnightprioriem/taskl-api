@@ -1,2 +1,2 @@
-# taskle-api
-REST API for Taskle Todo App
+# taskl-api
+REST API for Taskl Todo App
