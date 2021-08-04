@@ -14,7 +14,7 @@ ALLOWED_HOSTS = ['*']
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-LOGIN_URL = 'http://localhost:8000/dj-rest-auth/login' #TODO: change to use ssl for prod
+LOGIN_URL = 'http://localhost:3000/login' #TODO: change to use ssl for prod
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'

@@ -1,6 +1,6 @@
 import os
 
-LOGIN_URL = 'http://localhost:8000/dj-rest-auth/login' #TODO: change to use ssl for prod
+LOGIN_URL = 'https://taskl.app/login' #TODO: change to use ssl for prod
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
